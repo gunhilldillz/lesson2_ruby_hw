@@ -2,7 +2,9 @@ HwApp::Application.routes.draw do
 
   get '/' => "home#index"
   get '/contact' => "home#contact"
-  get '/about' => "home#about"
+  get '/about' => "post#about"
+  get '/params_poster/:id' => "post#params_poster"
+  get '/links' => "home#links"
  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

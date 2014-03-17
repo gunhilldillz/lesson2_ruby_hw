@@ -5,10 +5,13 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+
 </head>
-<body>
-<h3>THIS IS THE DEFAULT LAYOUT</h3>
+<body class="container">
+<div class="jumbotron">
+<h3>THIS IS THE ALTERNATE LAYOUT</h3>
 <%= yield %>
-<h3>THIS IS THE DEFAULT LAYOUT</h3>
+<h3>THIS IS THE ALTERNATE LAYOUT</h3>
+</div>
 </body>
 </html>

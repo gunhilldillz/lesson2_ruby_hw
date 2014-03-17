@@ -1,6 +1,10 @@
 class HomeController < ActionController::Base
   
+  layout "application"
+
   def index
+
+  	@person = "George Washington"
 
   end
 
@@ -9,6 +13,10 @@ class HomeController < ActionController::Base
   end
 
   def about
+
+  end
+
+  def links
 
   end
   
