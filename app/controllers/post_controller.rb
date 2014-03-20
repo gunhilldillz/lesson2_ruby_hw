@@ -6,6 +6,14 @@ class PostController < ActionController::Base
 
   	@id = params[:id]
 
+  @users = [
+
+  	{fname: "Zack", lname: "Feldman",
+  	fname: "Joe", lname: "Rivera"
+  	}
+
+  ]
+
   end
 
   def about
